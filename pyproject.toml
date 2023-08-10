@@ -1,5 +1,5 @@
 [project]
-name = "sim_to_motec"
+name = "stm"
 dynamic = ["dependencies"]
 
 version = "1.6.0"
@@ -7,6 +7,5 @@ version = "1.6.0"
 requires-python = ">=3.9"
 
 [tool.setuptools]
-py-modules = ["stm"]
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
