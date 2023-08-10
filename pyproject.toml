@@ -1,0 +1,12 @@
+[project]
+name = "sim-to-motec"
+dynamic = ["dependencies"]
+
+version = "1.6.0"
+
+requires-python = ">=3.9"
+license = {file = "LICENSE.txt"}
+
+[tool.setuptools]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
