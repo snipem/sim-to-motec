@@ -1,5 +1,5 @@
 [project]
-name = "sim-to-motec"
+name = "sim_to_motec"
 dynamic = ["dependencies"]
 
 version = "1.6.0"
